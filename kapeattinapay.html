@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Font awesome icon-->
+        <script src="https://kit.fontawesome.com/3f65e83df2.js" crossorigin="anonymous"></script>
+
+        <!--Font awesome cdnjs-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="navbar_sidenav.css">
+        <title>Navbar & Sidenav</title>
+</head>
+<body>
+
+    <h1 class="red-text text-red lighten-1 center-align">Centering the Logo</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <p class="flow-text">The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your &lt;a class="brand-logo"&gt;. You will have to make sure yourself that links do not overlap if you use this.</p>
+    <nav class="responsive-nav">
+        <div class="nav-wrapper black">
+            <img src="gecc.png" class="brand-logo center" width="60px" height="55px" style="margin-left: 30px">
+            <ul id="nav-mobile" class="left hide-on-med-and-down" style="margin-left: 30px">
+                <li><a href="navbar_sidenav.html">Home</a></li>
+                <li style="margin-left: 30px"><a href="worship.html">Worship</a></li>
+                <li class="active" style="margin-left: 30px"><a href="kapeattinapay.html">Kape At Tinapay</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 30px">
+                <li style="margin-left: 30px"><a href="https://www.facebook.com/GracelandCabuyao" target="_blank">Contact Us</a></li>
+                <li style="margin-left: 30px"><a href="active.html">Other</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container"  style="width: 100%;height: 100%">
+        <table class="table">
+            <tr>
+                <td>
+                <img src="kat1.jpg" id="kat1" style="height: 100%;width: 100%">
+                </td>
+                <td>
+                <img src="kat2.jpg" style="height: 100%;width: 100%">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <img src="kat3.jpg" style="height: 100%;width: 100%">
+                </td>
+                <td>
+                <img src="kat4.jpg" style="height: 100%;width: 100%">
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+
+        
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+<script>
+    $(document).ready(function() {
+        // slider init
+            $('.slider').slider({
+                height: 600,
+                duration: 1000,
+                interval: 8000
+            });
+        // materialbox init
+            $('.materialboxed').materialbox({
+                inDuration: 1000,
+                outDuration: 1000,
+                interval: 1000
+            });
+        });
+</script>
+</body>
+</html>
